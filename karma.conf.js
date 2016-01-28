@@ -6,8 +6,9 @@ module.exports = (config) => {
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
     browsers: [
+      'Firefox'
       // 'Chrome',
-      'PhantomJS',
+      //'PhantomJS',
     ],
 
     // web server port
